@@ -25,11 +25,9 @@ Please see instructors for a link to the data. Create a directory called `data` 
 
 # Monitoring
 
-Install wandb and set up a local server:
-```
-pip install --upgrade wandb
-wandb server start
-```
+Install wandb and set up a local server; follow instructions through step 2 here: https://docs.wandb.ai/guides/hosting/self-managed/basic-setup
+
+
 
 # Reproduce Results
 
