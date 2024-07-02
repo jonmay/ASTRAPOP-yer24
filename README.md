@@ -2,6 +2,13 @@
 Fork of the official repository for the paper "[Authorship Style Transfer with Policy Optimization](https://arxiv.org/abs/2403.08043)".
 This fork is customized to support the Yerevan 2024 Summer School.
 
+# Log in
+
+Log in to your node tunneling port 8080 so you can monitor using WandB:
+```
+ssh -L 8080:localhost:8080 -t <machine>
+```
+
 # Installation
 
 Commends for enviroment setup with conda.
@@ -16,6 +23,13 @@ pip install -r requirements.txt
 
 Please see instructors for a link to the data. Create a directory called `data` and unpack the provided tarballs in there.
 
+# Monitoring
+
+Install wandb and set up a local server:
+```
+pip install --upgrade wandb
+wandb server start
+```
 
 # Reproduce Results
 
