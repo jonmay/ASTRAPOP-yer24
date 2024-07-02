@@ -23,6 +23,14 @@ pip install -r requirements.txt
 
 Please see instructors for a link to the data. Create a directory called `data` and unpack the provided tarballs in there.
 
+# Model Permissions
+
+Get access to Llama2 (or a similar model you want to be your backbone) by filling out the form at https://huggingface.co/meta-llama/Llama-2-7b-hf.
+
+Obtain an access token 
+
+```export HUGGINGFACE_ACCESS_TOKEN=<your token>```
+
 # Monitoring
 
 Install wandb and set up a local server; follow instructions through step 2 here: https://docs.wandb.ai/guides/hosting/self-managed/basic-setup
