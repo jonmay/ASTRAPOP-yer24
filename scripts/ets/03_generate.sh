@@ -1,4 +1,4 @@
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     cmd="python src/ets/generate.py \
         --dataset data/ets/test/test.jsonl \
@@ -15,7 +15,7 @@ do
     eval $cmd
 done
 
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     cmd="python src/ets/generate.py \
         --dataset data/ets/test/test.jsonl \
@@ -33,7 +33,7 @@ do
     eval $cmd
 done
 
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     cmd="python src/ets/generate.py \
         --dataset data/ets/test/test.jsonl \
@@ -51,7 +51,7 @@ do
     eval $cmd
 done
 
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     cmd="python src/ets/generate.py \
         --dataset data/ets/test/test.jsonl \

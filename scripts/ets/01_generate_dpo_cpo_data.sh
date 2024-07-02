@@ -1,4 +1,4 @@
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     python src/ets/generate_dpo_cpo_data.py \
         --dataset data/ets/train \
@@ -10,6 +10,6 @@ do
         --tgt_lang ${tgt_lang} \
         --toward_reward \
         --length_penalty \
-        --batch_size 4 \
+        --batch_size 16 \
         --n_responses_per_query 3
 done

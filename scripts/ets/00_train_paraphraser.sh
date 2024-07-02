@@ -4,7 +4,6 @@ python src/ets/train_sft.py \
     --llama_model meta-llama/Llama-2-7b-hf \
     --mode paraphrase \
     --n_epochs 6 \
-    --batch_size 8 \
+    --batch_size 32 \
     --gradient_accumulation_steps 4 \
-    --learning_rate 5e-5 \
-    --disable_tqdm
+    --learning_rate 5e-5

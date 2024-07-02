@@ -1,4 +1,4 @@
-for tgt_lang in "ARA" "DEU" "FRA" "HIN" "ITA" "JPN" "KOR" "SPA" "TEL" "TUR" "ZHO"
+for tgt_lang in "ARA" "DEU"
 do
     cmd="python src/ets/train_ppo.py \
         --dataset data/ets/train \
