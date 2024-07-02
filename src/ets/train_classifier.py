@@ -1,7 +1,7 @@
 import os
 import argparse
 from collections import defaultdict
-
+import wandb
 import torch
 from datasets import load_dataset
 from transformers import (
@@ -11,6 +11,7 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
+wandb.init()
 
 LANG2IDX = {
     'ARA': 0,

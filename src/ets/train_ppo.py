@@ -3,7 +3,7 @@ import random
 import argparse
 from tqdm import tqdm
 from dataclasses import dataclass
-
+import wandb
 import torch
 import torch.nn.functional as F
 import transformers
@@ -22,6 +22,8 @@ from trl import (
     PPOTrainer,
     AutoModelForCausalLMWithValueHead,
 )
+
+wandb.init()
 
 LANG2IDX = {
     'ARA': 0,
@@ -162,6 +164,7 @@ if __name__ == '__main__':
         use_score_scaling=True,
         use_score_norm=True,
         score_clip=0.5,
+        log_with="wandb",
     )
 
     ppo_trainer = PPOTrainer(
