@@ -18,6 +18,9 @@ conda activate astrapop
 pip install -U pip
 pip install -r requirements.txt
 pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
+pip install -U huggingface
+pip install -U huggingface_hub
+pip install -U numpy
 ```
 
 # Data
