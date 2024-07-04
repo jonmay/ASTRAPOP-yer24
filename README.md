@@ -17,6 +17,7 @@ conda create --name astrapop python=3.8
 conda activate astrapop
 pip install -U pip
 pip install -r requirements.txt
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 # Data
